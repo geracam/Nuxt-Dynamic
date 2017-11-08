@@ -10,7 +10,7 @@ const debug = require('debug')('nuxt:generate')
 
 const { Nuxt, Builder, Generator } = require('../')
 const resolve = require('path').resolve
-
+console.log('bitches')
 const argv = parseArgs(process.argv.slice(2), {
   alias: {
     h: 'help',
